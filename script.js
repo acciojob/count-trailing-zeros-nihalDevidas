@@ -13,4 +13,4 @@ function trailingZeros(n) {
 }
 
 const input = prompt("Enter a number");
-alert(trailingZeros(input));
+alert(trailingZeros(input))
