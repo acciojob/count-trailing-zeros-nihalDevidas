@@ -1,6 +1,6 @@
 function trailingZeros(n) {
   //your JS code here. If required.
-
+  
 	let zeros = 0;
 
 	let powOf5 = 5;
@@ -12,5 +12,5 @@ function trailingZeros(n) {
 	return zeros;
 }
 
-const input = prompt("Enter a number");
-alert(trailingZeros(input))
+const input = prompt("Enter a number")
+alert(trailingZeros(parseInt(input)))
